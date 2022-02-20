@@ -642,7 +642,7 @@ def crack_select():
 	print("  Total IDs : "+str(len(id)))
 	print("  HANNAN😈 Process has started")
 	print("  Brute has been started")
-  print("  Cloning is to crime its just war against the system😂
+  print("  Cloning is to crime its just war against the system😂 ")
 	print("")
 	print '--------------------------------------------------------------'
 	print("")
