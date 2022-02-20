@@ -933,8 +933,8 @@ def ran():
 		file = ".txt"
 		for line in open(file, "r").readlines():
 			id.append(line.strip())
-	except: 	
-	print("  Total numbers: "+str(len(id)))
+	except: 
+	print("  Total numbers: "+str(len(id))"")
 	print("  The process has started")
 	print("  Press ctrl + z to stop")
 	print(' ')
