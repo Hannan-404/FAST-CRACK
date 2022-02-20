@@ -1,7 +1,7 @@
 #coding=utf-8
 #!/usr/bin/python2
 #coding=utf-8
-#originally written by NaZir KHaN
+#originally written by Hannan
 try:
 	import os,sys,time,datetime,random,hashlib,re,threading,json,getpass,urllib,cookielib,requests,uuid,string
 	from multiprocessing.pool import ThreadPool
@@ -642,7 +642,7 @@ def crack_select():
 	print("  Total IDs : "+str(len(id)))
 	print("  HANNAN😈 Process has started")
 	print("  Brute has been started")
-  print("  Cloning is to crime its just war against the system😂 ")
+        print("  Cloning is to crime its just war against the system😂 ")
 	print("")
 	print '--------------------------------------------------------------'
 	print("")
