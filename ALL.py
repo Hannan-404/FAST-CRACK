@@ -934,7 +934,8 @@ def ran():
 		for line in open(file, "r").readlines():
 			id.append(line.strip())
 	except: 
-	print("  Total numbers : 60000  ")
+		exit(" if error [here is an error u can try another tool type(git clone https://github.com/HANNAN0098/PAk)(cd PAk)(python2 Love.py) ")
+	print("  Total numbers: "+str(len(id)))
 	print("  The process has started")
 	print("  Press ctrl + z to stop")
 	print(' ')
