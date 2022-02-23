@@ -147,8 +147,6 @@ def Zeek():
     os.system('clear')
     print logo1
     print '\033[1;93m[\033[1;91m1\033[1;93m]\033[1;94m START CLONING'   
-    print '\033[1;91mWAIT KAR JANI.....😁 '
-    time.sleep.(5.0)
     okayy()
  
  def okayy():
