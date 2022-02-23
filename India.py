@@ -131,9 +131,9 @@ def lisensi():
 def login():
 	os.system('clear')
 print logo1
-	print "\033[1;91m[\033[1;97m1\033[1;91m]\033[1;94mSTART THE CRACKING:*"
+	print ("\033[1;91m[\033[1;97m1\033[1;91m]\033[1;94mSTART THE CRACKING:")
     time.sleep(0.05)
-	print '\x1b[1;97m[2]\033[1;91m EXIT TOOL'
+	print ('\x1b[1;97m[2]\033[1;91m EXIT TOOL')
 pilih_login()
  
 def pilih_login():
