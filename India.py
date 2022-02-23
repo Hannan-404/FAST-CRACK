@@ -130,7 +130,7 @@ def lisensi():
 ####login#########
 def login():
 	os.system('clear')
-print logo1
+print ("logo")
 	print ("\x1b[1;91mSTART THE CRACKING")
     time.sleep(0.05)
 	print ('\x1b[1;97m[2]\033[1;91m EXIT TOOL')
