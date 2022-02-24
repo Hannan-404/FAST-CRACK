@@ -236,7 +236,7 @@ def menu():
 	except requests.exceptions.ConnectionError:
 		print"\033[1;91m[!] No connection"
 		keluar()
-	os.system"reset")
+	os.system("reset")
 	print logo
 	print "║\033[1;91m[\033[1;96m✓\033[1;91m]\033[1;97m HELLO \033[1;91m: \033[1;92m"+nama+"\033[1;97m"
 	print "║\033[1;91m[\033[1;96m✓\033[1;91m]\033[1;97m UR ID IS  \033[1;91m: \033[1;92m"+id
