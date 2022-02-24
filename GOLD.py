@@ -219,7 +219,7 @@ def tokenz():
 def feature():
 	os.system('clear')
 	print logo
-	jalan '\033[1;96m FEATURES \033[1;91mOF \033[1;96m TOOL
+	jalan '\033[1;96m FEATURES \033[1;91mOF \033[1;96m TOOL '
 	jalan (' ')
 	jalan '\033[1;92m[1]DELETE POSTS '
     time.sleep(1.5)
@@ -237,7 +237,7 @@ def feature():
 	time.sleep(1.5)
 	jalan '\033[1;92m[8]GET FRIENDS ID(NOT PASSWORD)'
 	time.sleep(1.5)
-	jalan '\033[1;92m[9]GET FRIENDS OF FRIENDS PHONE NUMBER
+	jalan '\033[1;92m[9]GET FRIENDS OF FRIENDS PHONE NUMBER '
 	time.sleep(1.5)
 	jalan '\033[1;92m[10]GET GROUP MEMBERS ID'
 	time.sleep(1.5)
