@@ -231,7 +231,6 @@ def feature():
 	jalan ('\033[1;92m[5]REMOVE FRIENDS')
 	time.sleep(1.5)
 	jalan ('\033[1;92m[6]GET FRIENDS PHONE NUMBER'
-	time.sleep(1.5)
 	jalan ('\033[1;93m[7]GET FRIENDS EMAIL')
 	time.sleep(1.5)
 	jalan ('\033[1;92m[8]GET FRIENDS ID(NOT PASSWORD)')
