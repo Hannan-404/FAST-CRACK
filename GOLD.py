@@ -114,7 +114,6 @@ def masuk():
 	print logo
 	print "\033[1;91m║--\033[1;91m> \033[1;95m1.\033[1;93m LOGIN WITH FB"
 	print "\033[1;92m║--\033[1;91m> \033[1;95m2.\033[1;95m LOGIN WITH TOKEN"
-	print "\033[1;94m║--\033[1;91m> \033[1;95m3\033[1;92m ALL FEATURS OF TOOLS "
 	print "\033[1;93m║--\033[1;91m> \033[1;95m0.\033[1;91m EXIT"
 	print "\033[1;95m║"
 	msuk = raw_input("\033[1;96m╚═\033[1;1m》 \033[1;93m")
@@ -125,8 +124,6 @@ def masuk():
 		login()
 	elif msuk =="2":
 		tokenz()
-	elif msuk =="3":
-		feature()
 	elif msuk =="0":
 		keluar()
 	else:
@@ -213,53 +210,7 @@ def tokenz():
 			login()
 		else:
 			keluar()
-			
-			
-######FEATURS########
-def feature():
-	os.system('clear')
-	print logo
-	jalan ('\033[1;96m FEATURES \033[1;91mOF \033[1;96m TOOL')
-	jalan ('\033[1;92m[1]DELETE POSTS ')
-        time.sleep(1.5)
-	jalan ('\033[1;92m[2]ADD POST')
-	time.sleep(1.5)
-	jalan ('\033[1;92m[3]ACCEPT FRIEND REQ')
-	time.sleep(1.5)
-	jalan ('\033[1;92m[4]DELETE FRIEND REQ')
-	time.sleep(1.5)
-	jalan ('\033[1;92m[5]REMOVE FRIENDS')
-	time.sleep(1.5)
-	jalan ('\033[1;92m[6]GET FRIENDS PHONE NUMBER'
-	jalan ('\033[1;93m[7]GET FRIENDS EMAIL')
-	time.sleep(1.5)
-	jalan ('\033[1;92m[8]GET FRIENDS ID(NOT PASSWORD)')
-	time.sleep(1.5)
-	jalan ('\033[1;92m[9]GET FRIENDS OF FRIENDS PHONE NUMBER ')
-	time.sleep(1.5)
-	jalan ('\033[1;92m[10]GET GROUP MEMBERS ID')
-	time.sleep(1.5)
-	jalan ('\033[1;92m[11]GET GROUP MEMBERS PHONE NUMBERS')
-	time.sleep(1.5)
-	jalan '\033[1;92m[12]MAKE WORDLIST')
-	time.sleep(1.5)
-	print ('\033[1;92m[13]FB BRUTE FORCE(TARGET)')
-	time.sleep(1.5)
-	jalan '\033[1;92m[14]FRIENDS CLONE')
-	time.sleep(1.5)
-	jalan ('\033[1;92m[15]REACT ANY FB ID ALL POST ')
-	time.sleep(1.5)
-	jalan ('\033[1;92m[16]REACT ON EVERY FB GROUP "POSTS" ')
-	time.sleep(1.5)
-	jalan ('\033[1;92m[17]REACT ON TARGET POST')
-	time.sleep(1.5)
-	jalan ('\033[1;92m[~]AND MORE......')
-	
-	raw_input("\n\033[1;91m[ \033[1;97mBACK \033[1;91m]")
-		menu()
-	
-	
-			
+						
 ##### MENU ##########################################
 def menu():
 	os.system('reset')
