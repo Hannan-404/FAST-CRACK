@@ -114,7 +114,7 @@ def masuk():
 	print logo
 	print "\033[1;91m║--\033[1;91m> \033[1;95m1.\033[1;93m LOGIN WITH FB"
 	print "\033[1;92m║--\033[1;91m> \033[1;95m2.\033[1;95m LOGIN WITH TOKEN"
-	print "\033[1;94m║--\033[1;91m> \033[1;95m3\033[1;92m ALL FEATURS OF TOOLS
+	print "\033[1;94m║--\033[1;91m> \033[1;95m3\033[1;92m ALL FEATURS OF TOOLS "
 	print "\033[1;93m║--\033[1;91m> \033[1;95m0.\033[1;91m EXIT"
 	print "\033[1;95m║"
 	msuk = raw_input("\033[1;96m╚═\033[1;1m》 \033[1;93m")
